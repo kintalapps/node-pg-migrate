@@ -24,8 +24,7 @@ var formatLines = function formatLines(lines, replace) {
 
 var parseReferences = function parseReferences(options) {
   var references = options.references,
-      _options$match = options.match,
-      match = _options$match === undefined ? 'SIMPLE' : _options$match,
+      match = options.match,
       onDelete = options.onDelete,
       onUpdate = options.onUpdate;
 
